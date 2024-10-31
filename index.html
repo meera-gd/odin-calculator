@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Calculator</title>
-		<script src="script.js" defer></script>
-	</head>
-	<body>
-		<div id="display"></div>
-		<div>
-			<span id="digits">
-				<button>0</button>
-				<button>1</button>
-				<button>2</button>
-				<button>3</button>
-				<button>4</button>
-				<button>5</button>
-				<button>6</button>
-				<button>7</button>
-				<button>8</button>
-				<button>9</button>
-			</span>
-			<span id="operators">
-				<button>+</button>
-				<button>-</button>
-				<button>*</button>
-				<button>/</button>
-			</span>
-			<button id="equals">=</button>
-			<button id="clear">Clear</button>
-		</div>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="calc">
+      <div id="display"></div>
+      <div id="buttons">
+        <div id="left">
+          <button class="digit">7</button>
+          <button class="digit">8</button>
+          <button class="digit">9</button>
+          <button class="digit">4</button>
+          <button class="digit">5</button>
+          <button class="digit">6</button>
+          <button class="digit">1</button>
+          <button class="digit">2</button>
+          <button class="digit">3</button>
+          <button id="clear">Clear</button>
+          <button class="digit">0</button>
+          <button id="equals">=</button>
+        </div>
+        <div id="right">
+          <button class="op">+</button>
+          <button class="op">-</button>
+          <button class="op">*</button>
+          <button class="op">/</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
